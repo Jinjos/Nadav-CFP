@@ -24,6 +24,8 @@
             --color-slate-dark: #1e293b; /* Deep Slate from request */
             --color-gold: #c5a059;       /* Muted Gold extracted/tuned for luxury */
             --color-gold-hover: #b08d4b;
+            --color-whatsapp: #25d366;
+            --color-whatsapp-hover: #1ebe5a;
             --color-text-light: #f8fafc;
             --color-text-dark: #1e293b;
             --color-logo-container: #f3f1e8;
@@ -57,6 +59,17 @@
             background-color: var(--color-gold-hover);
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(197, 160, 89, 0.3);
+        }
+        .btn-whatsapp {
+            background-color: var(--color-whatsapp);
+            color: #ffffff;
+            transition: all 0.3s ease;
+            font-weight: 700;
+        }
+        .btn-whatsapp:hover {
+            background-color: var(--color-whatsapp-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.35);
         }
 
         /* Logo Specifics */
@@ -279,7 +292,7 @@
                 </div>
 
                 <div class="text-center pt-4">
-                    <button type="submit" class="btn-gold w-full md:w-auto py-4 px-12 rounded-lg text-lg shadow-md active:scale-95 transition-transform">
+                    <button type="submit" class="btn-whatsapp w-full md:w-auto py-4 px-12 rounded-lg text-lg shadow-md active:scale-95 transition-transform">
                         נדב, בוא נדבר
                     </button>
                 </div>
