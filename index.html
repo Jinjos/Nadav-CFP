@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>נדב סיני | תכנון פיננסי אסטרטגי</title>
+    <meta name="description" content="ליווי פיננסי אסטרטגי ותכנון פרישה עם נדב סיני, מתכנן פיננסי מוסמך (CFP).">
+
+    <!-- Fonts: Heebo (Headings) and Assistant (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&family=Heebo:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons: FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Framework: Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Theme Configuration -->
+    <style>
+        /* Base Resets & Fonts */
+        :root {
+            --color-slate-dark: #1e293b; /* Deep Slate from request */
+            --color-gold: #c5a059;       /* Muted Gold extracted/tuned for luxury */
+            --color-gold-hover: #b08d4b;
+            --color-text-light: #f8fafc;
+            --color-text-dark: #1e293b;
+            --color-logo-container: #f3f1e8;
+        }
+
+        body {
+            font-family: 'Assistant', sans-serif;
+            color: var(--color-text-dark);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Heebo', sans-serif;
+        }
+
+        /* Custom Color Utilities */
+        .bg-brand-dark { background-color: var(--color-slate-dark); }
+        .text-brand-dark { color: var(--color-slate-dark); }
+        .bg-brand-gold { background-color: var(--color-gold); }
+        .text-brand-gold { color: var(--color-gold); }
+        .border-brand-gold { border-color: var(--color-gold); }
+        
+        /* Button Styling */
+        .btn-gold {
+            background-color: var(--color-gold);
+            color: var(--color-slate-dark);
+            transition: all 0.3s ease;
+            font-weight: 700;
+        }
+        .btn-gold:hover {
+            background-color: var(--color-gold-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(197, 160, 89, 0.3);
+        }
+
+        /* Logo Specifics */
+        .logo-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 1rem;
+            background-color: var(--color-logo-container);
+        }
+        
+        .main-logo {
+            display: block;
+            margin: 0 auto;
+            max-width: 500px; /* Desktop default */
+            width: 100%;
+            height: auto;
+            transition: max-width 0.3s ease;
+        }
+
+        @media (max-width: 768px) {
+            .main-logo {
+                max-width: 70vw; /* Mobile constraint: 70% of viewport width */
+            }
+        }
+
+        /* Card Hover Effects */
+        .problem-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .problem-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+
+    <!-- Header Section: Centered Logo -->
+    <header class="logo-container">
+        <a href="#">
+            <img src="https://i.postimg.cc/P5F6YSM5/Gemini-Generated-Image-7hv7jb7hv7jb7hv7.png" alt="Nadav Sinai CFP Logo" class="main-logo">
+        </a>
+    </header>
+
+    <!-- Section 1: Hero (The Promise) -->
+    <section class="bg-brand-dark text-white relative overflow-hidden pb-12 pt-10 px-6 md:pb-20">
+        <!-- Abstract background decoration -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-white opacity-5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <!-- Updated text sizes for mobile responsiveness -->
+            <div class="text-3xl md:text-6xl font-black mb-6 leading-tight tracking-tight header-section" style="font-family: 'Heebo', sans-serif;">
+                <p class="mb-3 md:mb-5"> המשאבים הכלכליים שלכם כבר קיימים.</p>   
+                <p class="text-brand-gold">בואו נהפוך אותם לתוכנית חיים.</p>
+            </div>
+            <p class="text-lg md:text-2xl text-gray-300 mb-10 font-light max-w-2xl mx-auto leading-relaxed">
+                מתכננים את המחר בלי לוותר על היום: ליווי פיננסי אסטרטגי.
+            </p>
+            <a href="#contact" class="btn-gold py-4 px-10 rounded-full text-lg inline-block shadow-lg active:scale-95 transition-transform">
+                לתיאום פגישת היכרות
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 2: The Problem (Agitation) -->
+    <!-- Reduced py for mobile -->
+    <section class="py-12 md:py-24 px-6 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-10 md:mb-16">
+                <h2 class="text-2xl md:text-4xl font-bold text-brand-dark mb-4">
+                    השלב שבו אנחנו הופכים את המספרים לשאלות
+                </h2>
+                <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    בניתם קריירה, צברתם נכסים, אבל יחד עם ההצלחה עולות תהיות מהותיות לגבי העתיד:
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                <!-- Card 1 -->
+                <div class="problem-card bg-white p-6 md:p-8 rounded-xl border-2 border-brand-gold/30 shadow-sm flex items-start">
+                    <div class="text-brand-gold ml-4 text-2xl mt-1 shrink-0"><i class="fa-regular fa-circle-question"></i></div>
+                    <p class="text-base md:text-lg font-medium text-gray-800">האם הכסף שלי באמת עובד בצורה הכי יעילה?</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="problem-card bg-white p-6 md:p-8 rounded-xl border-2 border-brand-gold/30 shadow-sm flex items-start">
+                    <div class="text-brand-gold ml-4 text-2xl mt-1 shrink-0"><i class="fa-solid fa-chart-line"></i></div>
+                    <p class="text-base md:text-lg font-medium text-gray-800">האם אצליח לשמור על אותה רמת חיים גם ביום שאחרי הפרישה?</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="problem-card bg-white p-6 md:p-8 rounded-xl border-2 border-brand-gold/30 shadow-sm flex items-start">
+                    <div class="text-brand-gold ml-4 text-2xl mt-1 shrink-0"><i class="fa-solid fa-child-reaching"></i></div>
+                    <p class="text-base md:text-lg font-medium text-gray-800">איך אני מבטיח לילדים שלי נקודת זינוק מבלי לפגוע בחופש הכלכלי שלי?</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="problem-card bg-white p-6 md:p-8 rounded-xl border-2 border-brand-gold/30 shadow-sm flex items-start">
+                    <div class="text-brand-gold ml-4 text-2xl mt-1 shrink-0"><i class="fa-solid fa-shield-halved"></i></div>
+                    <p class="text-base md:text-lg font-medium text-gray-800">האם יש לי "חורים" בניהול הסיכונים או במיסוי שעולים לי כסף בכל יום שעובר?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: The Solution (Methodology) -->
+    <section class="bg-brand-dark text-white py-12 md:py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl md:text-4xl font-bold text-center mb-10 md:mb-16 text-brand-gold">
+                לא עוד ייעוץ מדף – תכנון מותאם אישית
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-10 text-center">
+                <!-- Methodology 1 -->
+                <div class="flex flex-col items-center group">
+                    <div class="w-16 h-16 md:w-20 md:h-20 bg-white/10 rounded-full flex items-center justify-center mb-4 md:mb-6 group-hover:bg-brand-gold transition duration-300">
+                        <i class="fa-regular fa-compass text-2xl md:text-3xl text-brand-gold group-hover:text-brand-dark transition duration-300"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 md:mb-3">מיפוי ואסטרטגיה</h3>
+                    <p class="text-gray-300 leading-relaxed text-sm md:text-base">
+                        בחינת התמונה המלאה, זיהוי המטרות האישיות ובניית מפת דרכים מדויקת להשגתן.
+                    </p>
+                </div>
+
+                <!-- Methodology 2 -->
+                <div class="flex flex-col items-center group">
+                    <div class="w-16 h-16 md:w-20 md:h-20 bg-white/10 rounded-full flex items-center justify-center mb-4 md:mb-6 group-hover:bg-brand-gold transition duration-300">
+                        <i class="fa-solid fa-shield-virus text-2xl md:text-3xl text-brand-gold group-hover:text-brand-dark transition duration-300"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 md:mb-3">אופטימיזציה הוליסטית</h3>
+                    <p class="text-gray-300 leading-relaxed text-sm md:text-base">
+                        סינכרון בין השקעות, פנסיה ומיסוי כדי למקסם תשואה ולמזער עלויות מיותרות.
+                    </p>
+                </div>
+
+                <!-- Methodology 3 -->
+                <div class="flex flex-col items-center group">
+                    <div class="w-16 h-16 md:w-20 md:h-20 bg-white/10 rounded-full flex items-center justify-center mb-4 md:mb-6 group-hover:bg-brand-gold transition duration-300">
+                        <i class="fa-regular fa-handshake text-2xl md:text-3xl text-brand-gold group-hover:text-brand-dark transition duration-300"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 md:mb-3">ליווי נוכח</h3>
+                    <p class="text-gray-300 leading-relaxed text-sm md:text-base">
+                        החיים דינמיים, והתוכנית שלכם חייבת להיות כזו. אני כאן בכל צומת החלטה משמעותי.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Authority (About Nadav) -->
+    <section class="py-12 md:py-24 px-6 bg-gray-50">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-12">
+            
+            <!-- Content (Right side in RTL) -->
+            <div class="w-full md:w-1/2 order-2 md:order-1 text-center md:text-right">
+                <h2 class="text-2xl md:text-4xl font-bold text-brand-dark mb-4 md:mb-6">
+                    נעים להכיר, אני נדב סיני
+                </h2>
+                <div class="w-16 md:w-20 h-1 bg-brand-gold mb-4 md:mb-6 mx-auto md:mx-0"></div>
+                
+                <p class="text-base md:text-lg text-gray-700 mb-4 md:mb-6 leading-relaxed">
+                    כמתכנן פיננסי מוסמך (CFP), אני מלווה משפחות ויחידים בצמתי קבלת החלטות כלכליות משמעותיות. המטרה שלי היא להעניק לכם שקט נפשי וביטחון, תוך יצירת סדר בנכסים ובניית אסטרטגיה ברורה לעתיד.
+                </p>
+                <p class="text-base md:text-lg text-gray-700 leading-relaxed">
+                    אני מאמין שניהול עושר הוא לא רק מספרים באקסל, אלא הבנה עמוקה של הערכים, השאיפות והחששות שלכם. יחד, נהפוך את הכסף שלכם לכלי שמשרת את החלומות שלכם.
+                </p>
+            </div>
+
+            <!-- Image (Left side in RTL) -->
+            <div class="w-full md:w-1/2 order-1 md:order-2 flex justify-center md:justify-end pb-4 md:pb-0">
+                <div class="relative mr-4 md:mr-0"> <!-- Added mr-4 on mobile to accommodate offset -->
+                    <div class="absolute inset-0 border-2 border-brand-gold rounded-lg transform translate-x-3 translate-y-3 md:translate-x-4 md:translate-y-4"></div>
+                    <!-- Real Image of Nadav -->
+                    <img src="https://i.postimg.cc/BZc22fLB/Whats-App-Image-2026-01-29-at-10-17-46.jpg" alt="Nadav Sinai" class="relative rounded-lg shadow-xl max-w-[280px] md:max-w-md w-full object-cover">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <!-- Section 5: Contact Form -->
+    <section id="contact" class="bg-white py-12 md:py-24 px-6 border-t border-gray-200">
+        <div class="max-w-2xl mx-auto">
+            <div class="text-center mb-8 md:mb-10">
+                <h2 class="text-2xl md:text-4xl font-bold text-brand-dark mb-3 md:mb-4">
+                    העתיד שלכם לא צריך להיות בסימן שאלה
+                </h2>
+                <p class="text-gray-600 text-sm md:text-base">השאירו פרטים ונבדוק יחד איך להפוך את הנכסים שלכם לתוכנית עבודה.</p>
+            </div>
+
+            <form action="https://formspree.io/f/mzdgalyr" method="POST" class="space-y-5 md:space-y-6">
+                <div>
+                    <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">שם מלא</label>
+                    <input type="text" id="name" name="name" required
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none transition text-base"
+                        placeholder="ישראל ישראלי">
+                </div>
+
+                <div>
+                    <label for="phone" class="block text-sm font-semibold text-gray-700 mb-2">טלפון נייד</label>
+                    <input type="tel" id="phone" name="phone" required
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none transition text-base"
+                        placeholder="050-0000000">
+                </div>
+                
+                <div>
+                    <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">אימייל</label>
+                    <input type="email" id="email" name="email" required
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none transition text-base"
+                        placeholder="example@email.com">
+                </div>
+
+                <div>
+                    <label for="goal" class="block text-sm font-semibold text-gray-700 mb-2">מטרה עיקרית / נושא לפגישה</label>
+                    <textarea id="goal" name="goal" rows="4"
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none transition text-base"
+                        placeholder="תכנון פרישה, ניהול השקעות, ייעוץ כללי..."></textarea>
+                </div>
+
+                <div class="text-center pt-4">
+                    <button type="submit" class="btn-gold w-full md:w-auto py-4 px-12 rounded-lg text-lg shadow-md active:scale-95 transition-transform">
+                        נדב, בוא נדבר
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-gray-400 py-8 text-center border-t border-gray-800">
+        <div class="container mx-auto px-6">
+            <p class="text-sm">
+                &copy; <script>document.write(new Date().getFullYear())</script> נדב סיני - תכנון פיננסי. כל הזכויות שמורות.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
